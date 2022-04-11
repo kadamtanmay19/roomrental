@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Rent</title>
+  <!--<link rel="stylesheet" href="index.css">-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700;900&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+  
+  <script src="https://kit.fontawesome.com/ccdd6cc301.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <style type="text/css">
+    body{
+    font-family: "Montserrat";
+    text-align: center; 
+}
+.body-a{
+    text-align: center;
+    
+}
+
+.row{
+    padding-top: 4.5rem;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-black";
+}
+p{
+    color: #8f8f8f;
+}
+#title{
+    background-color: #398AB9;
+    color: #fff;
+    text-align: left;
+}
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.navbar{
+    padding-bottom: 4.5%;
+    }
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:"Montserrat-light";
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    /* position: absolute;
+    right: 30%; */
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    /* position: relative; */
+}
+.feature-box{
+    padding: 5%;
+}
+.feature-title{
+    font-size: 1.5rem
+}
+.icon{
+    color: #2666CF;
+    padding-bottom: 1rem;
+}
+.icon:hover{
+    color:#1C658C;
+}
+#testimonials{
+    background-color: #11468F;
+    color: #fff;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #11468F;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+@media(max-width:1028px){
+    .title-img{
+    position : static;
+    transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+ </style>
+</head>
+
+<body class="body-a">
+
+  <section id="title">
+    <div class="container">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">home rental</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#features">Feature</a>
+     </li>
+          <li class="nav-item">
+              <a class="nav-link" onclick="window.location.href='#'">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#pricing">About us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#cta"></a>
+          </li>
+      </ul>
+   </div>
+  </nav>
+
+
+
+    <!-- Title -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="big-heading">Find the apartment of your dream.</h1>
+      <button type="button" onclick="window.location.href='login.php'" class="btn btn-dark btn-lg download-btn"><i class="fas fa-sign-in-alt"></i> Log in</button>
+      <button type="button" onclick="window.location.href='register.html'" class="btn btn-dark btn-lg download-btn"><i class="fas fa-user-plus"></i> Register</button>
+      
+      </div>
+  
+    <div class="col-lg-6">
+      <img class="title-img" src="img/family.jpg" alt="family">
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+         <i class="icon fas fa-users-slash fa-4x"></i>
+        <h3 class="feature-title">Avoid Brokers.</h3>
+      <p>We directly connect you to verified owner to save brokerage.</p>
+      </div>
+      
+      <div class="feature-box col-lg-4 ">
+         <i class=" icon far fa-file-alt fa-4x"></i>
+        <h3 class="feature-title">Free listing</h3>
+      <p>Easy listing process.</p>
+      </div>
+  
+      <div class="feature-box col-lg-4">
+         <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3 class="feature-title">Shortlist without visit.</h3>
+      <p>Extensive information make it easy.</p>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+  
+      <div class="carousel-inner">
+    
+        <div class="carousel-item active">
+          <h2 class="testimonial-text">Room is good, flatmate is cooperative, Service is efficient. Nice and warm place to live in.</h2>
+          <img class="testimonial-img" src="img/man.png" alt="man-profile">
+          <em>Mumbai, India</em>
+        </div>
+    
+        <div class="carousel-item " >
+          <h2 class="testimonial-text">Great & precise service. Thanks to the entire team for simplifying the rental process.</h2>
+          <img class="testimonial-img" src="img/man.png" alt="man-profile">
+          <em>Sindhudurg, India</em>
+        </div>
+      </div>
+    
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    
+      </a>
+    
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        
+      </a>
+    </div>
+
+    
+
+    
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="img/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="img/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="img/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="img/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p>© Copyright 2022 home rental</p>
+
+  </footer>
+
+
+</body>
+
+</html>
+
+
+
